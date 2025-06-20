@@ -1,0 +1,86 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #f0f0f0, #ffffff);
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.profileImageContainer {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 4px solid #ff4d6d;
+}
+
+.profileImage {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  color: #333333;
+}
+
+.subtitle {
+  color: #777777;
+  font-size: 0.875rem;
+}
+
+.infoGrid {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.infoCard {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 150px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.infoTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #555555;
+}
+
+.infoText {
+  font-size: 0.875rem;
+  color: #888888;
+}
+
+.button {
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
